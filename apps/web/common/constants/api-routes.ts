@@ -1,0 +1,9 @@
+export const API_URL_ADMIN = `/admin`;
+export const API_URL_DRIVERS = `/drivers`;
+export const API_URL_ENFORCERS = `/enforcers`;
+export const API_URL_TREASURERS = `/treasurers`;
+export const API_URL_BACKOFFICE = `/backoffice`;
+export const API_URL_DRIVER_MODULE = `/driver-module`;
+export const API_URL_ENFORCER_MODULE = `/enforcer-module`;
+export const API_URL_ADMIN_MODULE = `/admin-module`;
+export const API_URL_TREASURER_MODULE = `/treasurer-module`;

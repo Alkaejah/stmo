@@ -1,0 +1,9 @@
+export const LINK_HOME = "/";
+export const LINK_LOGIN = "/login";
+export const LINK_CREATE_ACCOUNT = "/registration";
+export const LINK_LOGOUT = "/logout";
+export const LINK_ADMIN = "/admin";
+export const LINK_TREASURERS = "/treasurers";
+export const LINK_ENFORCERS = "/enforcers";
+export const LINK_DRIVERS = "/drivers";
+export const LINK_OFFICERS = "/backoffice";

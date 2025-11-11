@@ -1,0 +1,40 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**"],
+      "env": [
+        "MONGO_URL",
+        "ALLOWED_CLIENTS",
+        "PORT",
+        "WEB_URL",
+        "API_URL",
+        "API_AUTH_URL",
+        "NODE_ENV",
+        "REDIS_PASSWORD",
+        "REDIS_URL",
+        "CSRF_SIGN_KEY",
+        "PASSWORD_ENCRYPT_KEY",
+        "BACKOFFICE_PASSWORD_ENCRYPT_KEY",
+        "BACKOFFICE_CSRF_SIGN_KEY",
+        "NEXT_PUBLIC_API_URL",
+        "AWS_REGION",
+        "AWS_ACCESS_KEY",
+        "AWS_SECRET_ACCESS_KEY"
+      ]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}

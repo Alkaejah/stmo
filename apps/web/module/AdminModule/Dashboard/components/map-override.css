@@ -1,0 +1,14 @@
+/* map-overrides.css */
+.leaflet-tooltip-pane {
+    pointer-events: none !important;
+  }
+  
+  .leaflet-tooltip.interactive-tooltip {
+    pointer-events: auto !important;
+    cursor: text !important;
+  }
+  
+  .leaflet-tooltip.interactive-tooltip:hover,
+  .leaflet-tooltip.interactive-tooltip:focus {
+    pointer-events: auto !important;
+  }

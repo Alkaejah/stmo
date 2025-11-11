@@ -1,0 +1,132 @@
+{
+  "error": false,
+  "item": {
+    "_id": "67a458fd31e4d0e955302590",
+    "ticketNumber": "000000001",
+    "driver": {
+      "_id": "67a39529de31115e0f4713dd",
+      "profilePicture": [],
+      "firstName": "Richard",
+      "lastName": "Dela Peña",
+      "address": {
+        "_id": "67a39529de31115e0f4713db",
+        "street": "Matamoros st.",
+        "barangay": "Longos",
+        "municipality": "Kalayaan",
+        "province": "Laguna",
+        "createdAt": "2025-02-05T16:40:43.702Z",
+        "__v": 0
+      },
+      "violationCount": 15,
+      "role": "Driver",
+      "createdAt": "2025-02-05T16:40:43.412Z",
+      "__v": 0
+    },
+    "enforcer": {
+      "_id": "67a337b342330ddd0f340de8",
+      "firstName": "Ramon",
+      "lastName": "Salazar"
+    },
+    "receipt": null,
+    "licenseNumber": "TESTLICENSENUMBER",
+    "plateNumber": "TESTPLATENUMBER",
+    "violations": [
+      {
+        "_id": "67a41bc3f836c1d0adfd81e6",
+        "violationCategory": {
+          "_id": "67a2610f2e2c95afef0dd1bf",
+          "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+        },
+        "penaltyCategory": {
+          "_id": "67a26977f3c0d78041bb9c41",
+          "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+          "penalty": 200
+        },
+        "violationCode": "3A",
+        "violationDescription": "HADLANG SA DALOY NG TRAPIKO",
+        "createdAt": "2025-02-06T02:15:12.971Z",
+        "__v": 0
+      },
+      {
+        "_id": "67a446000450e495a947e4d5",
+        "violationCategory": {
+          "_id": "67a2610f2e2c95afef0dd1bf",
+          "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+        },
+        "penaltyCategory": {
+          "_id": "67a26977f3c0d78041bb9c41",
+          "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+          "penalty": 200
+        },
+        "violationCode": "31",
+        "violationDescription": "",
+        "createdAt": "2025-02-06T05:07:24.299Z",
+        "__v": 0
+      },
+      {
+        "_id": "67a446000450e495a947e4d5",
+        "violationCategory": {
+          "_id": "67a2610f2e2c95afef0dd1bf",
+          "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+        },
+        "penaltyCategory": {
+          "_id": "67a26977f3c0d78041bb9c41",
+          "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+          "penalty": 200
+        },
+        "violationCode": "31",
+        "violationDescription": "",
+        "createdAt": "2025-02-06T05:07:24.299Z",
+        "__v": 0
+      }
+    ],
+    "otherViolations": [
+      {
+        "violationId": {
+          "_id": "67a446000450e495a947e4d5",
+          "violationCategory": {
+            "_id": "67a2610f2e2c95afef0dd1bf",
+            "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+          },
+          "penaltyCategory": {
+            "_id": "67a26977f3c0d78041bb9c41",
+            "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+            "penalty": 200
+          },
+          "violationCode": "31",
+          "violationDescription": "",
+          "createdAt": "2025-02-06T05:07:24.299Z",
+          "__v": 0
+        },
+        "violationDescription": "WALANG HELMET",
+        "_id": "67a458fd31e4d0e955302591"
+      },
+      {
+        "violationId": {
+          "_id": "67a446000450e495a947e4d5",
+          "violationCategory": {
+            "_id": "67a2610f2e2c95afef0dd1bf",
+            "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+          },
+          "penaltyCategory": {
+            "_id": "67a26977f3c0d78041bb9c41",
+            "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+            "penalty": 200
+          },
+          "violationCode": "31",
+          "violationDescription": "",
+          "createdAt": "2025-02-06T05:07:24.299Z",
+          "__v": 0
+        },
+        "violationDescription": "WALANG SIDE MIRROR",
+        "_id": "67a458fd31e4d0e955302592"
+      }
+    ],
+    "time": "5:02",
+    "date": "2024-02-05T00:00:00.000Z",
+    "ticketStatus": "Pending",
+    "proof": [],
+    "createdAt": "2025-02-06T06:37:23.031Z",
+    "__v": 0
+  }
+}

@@ -1,0 +1,140 @@
+{
+    "error": false,
+    "item": {
+        "_id": "67e223e97c1674915c392802",
+        "firstName": "Javier",
+        "lastName": "Peña",
+        "feedbacks": [
+            {
+                "_id": "67e56f415a8b5a8a996d1bb4",
+                "isAccuratelyApprehended": false,
+                "q1": 5,
+                "q2": 4,
+                "q3": 4,
+                "q4": 4,
+                "q5": 2,
+                "q6": 2,
+                "q7": 3,
+                "q8": 5,
+                "q9": 3,
+                "q10": 5,
+                "q11": 3,
+                "address": {
+                    "_id": "67dc1157c3007ba14134b0e3",
+                    "street": {
+                        "street": "L. De Leon St."
+                    },
+                    "barangay": {
+                        "barangay": "Wawa"
+                    }
+                },
+                "createdAt": "2025-03-27T15:31:13.124Z",
+                "__v": 0
+            },
+            {
+                "_id": "67e56f725a8b5a8a996d1bc1",
+                "isAccuratelyApprehended": true,
+                "q1": 2,
+                "q2": 2,
+                "q3": 2,
+                "q4": 1,
+                "q5": 2,
+                "q6": 4,
+                "q7": 3,
+                "q8": 1,
+                "q9": 2,
+                "q10": 3,
+                "q11": 2,
+                "address": {
+                    "_id": "67dc1157c3007ba14134b0e3",
+                    "street": {
+                        "street": "L. De Leon St."
+                    },
+                    "barangay": {
+                        "barangay": "Wawa"
+                    }
+                },
+                "createdAt": "2025-03-27T15:32:02.211Z",
+                "__v": 0
+            },
+            {
+                "_id": "67e56f905a8b5a8a996d1bcd",
+                "isAccuratelyApprehended": false,
+                "q1": 5,
+                "q2": 5,
+                "q3": 5,
+                "q4": 4,
+                "q5": 5,
+                "q6": 4,
+                "q7": 3,
+                "q8": 5,
+                "q9": 3,
+                "q10": 5,
+                "q11": 4,
+                "address": {
+                    "_id": "67dc1157c3007ba14134b0e3",
+                    "street": {
+                        "street": "L. De Leon St."
+                    },
+                    "barangay": {
+                        "barangay": "Wawa"
+                    }
+                },
+                "createdAt": "2025-03-27T15:32:32.549Z",
+                "__v": 0
+            },
+            {
+                "_id": "67e56fb85a8b5a8a996d1bda",
+                "isAccuratelyApprehended": true,
+                "q1": 1,
+                "q2": 2,
+                "q3": 3,
+                "q4": 2,
+                "q5": 1,
+                "q6": 2,
+                "q7": 2,
+                "q8": 1,
+                "q9": 3,
+                "q10": 2,
+                "q11": 1,
+                "address": {
+                    "_id": "67dc1157c3007ba14134b0e3",
+                    "street": {
+                        "street": "L. De Leon St."
+                    },
+                    "barangay": {
+                        "barangay": "Wawa"
+                    }
+                },
+                "createdAt": "2025-03-27T15:33:12.859Z",
+                "__v": 0
+            },
+            {
+                "_id": "67e56fe35a8b5a8a996d1be6",
+                "isAccuratelyApprehended": true,
+                "q1": 1,
+                "q2": 1,
+                "q3": 1,
+                "q4": 2,
+                "q5": 2,
+                "q6": 1,
+                "q7": 2,
+                "q8": 3,
+                "q9": 3,
+                "q10": 3,
+                "q11": 1,
+                "address": {
+                    "_id": "67dc1157c3007ba14134b0e3",
+                    "street": {
+                        "street": "L. De Leon St."
+                    },
+                    "barangay": {
+                        "barangay": "Wawa"
+                    }
+                },
+                "createdAt": "2025-03-27T15:33:55.670Z",
+                "__v": 0
+            }
+        ]
+    }
+}

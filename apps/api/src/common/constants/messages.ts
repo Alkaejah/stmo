@@ -1,0 +1,12 @@
+export const RECORD_DOES_NOT_EXIST = "Record does not exist!";
+export const NO_RECORD_FOUND = "No record found!";
+export const SESSION = "dstmos";
+export const CSRF = "dstmoc";
+export const BACKOFFICE_SESSION = "bstmos";
+export const BACKOFFICE_CSRF = "bstmoc";
+export const UNKNOWN_ERROR_OCCURRED = "Unknown error occurred!";
+export const REQUIRED_VALUE_EMPTY = "Required fields can not be empty!";
+export const NOT_AUTHORIZED = "You are not authorized to perform this action!";
+export const DRIVER_NOT_EXIST = "Driver not exist in our system!";
+export const ENFORCER_NOT_EXISTS = "Driver not exist in our system!";
+export const BACKOFFICER_NOT_EXIST = "Back officer not exist in our system!";

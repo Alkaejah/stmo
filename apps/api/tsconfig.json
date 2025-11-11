@@ -1,0 +1,45 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "./build",
+    "jsx": "react",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    },
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "include": [
+    "**/*.ts",
+     "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "./build/**/*"
+  ]
+}
+
+// {
+//   "extends": "@repo/typescript-config/base.json",
+//   "compilerOptions": {
+//     "outDir": "./build",
+//     "jsx": "react-jsx",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     }
+//   },
+//   "ts-node": {
+//     "require": ["tsconfig-paths/register"]
+//   },
+//   "include": [
+//     "**/*.ts",
+//     "**/*.tsx"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "./build/**/*"
+//   ]
+// }

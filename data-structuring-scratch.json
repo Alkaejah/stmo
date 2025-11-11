@@ -1,0 +1,58 @@
+{
+    "error": false,
+    "item": {
+        "_id": "67a4363615ea67e905a732f3",
+        "ticketNumber": "000000001",
+        "driver": {
+            "_id": "67a39529de31115e0f4713dd",
+            "profilePicture": [],
+            "firstName": "Richard",
+            "lastName": "Dela Peña",
+            "address": {
+                "_id": "67a39529de31115e0f4713db",
+                "street": "Matamoros st.",
+                "barangay": "Longos",
+                "municipality": "Kalayaan",
+                "province": "Laguna",
+                "createdAt": "2025-02-05T16:40:43.702Z",
+                "__v": 0
+            },
+            "violationCount": 8,
+            "role": "Driver",
+            "createdAt": "2025-02-05T16:40:43.412Z",
+            "__v": 0
+        },
+        "enforcer": {
+            "_id": "67a337b342330ddd0f340de8",
+            "firstName": "Ramon",
+            "lastName": "Salazar"
+        },
+        "receipt": null,
+        "licenseNumber": "TESTLICENSENUMBER",
+        "plateNumber": "TESTPLATENUMBER",
+        "violations": [
+            {
+                "_id": "67a41bc3f836c1d0adfd81e6",
+                "violationCategory": {
+                    "_id": "67a2610f2e2c95afef0dd1bf",
+                    "violationCategoryName": "PANGKARANIWANG PAGLABAG"
+                },
+                "penaltyCategory": {
+                    "_id": "67a26977f3c0d78041bb9c41",
+                    "penaltyDescription": "PANGKARANIWANG PAGLABAG",
+                    "penalty": 200
+                },
+                "violationCode": "3A",
+                "violationDescription": "HADLANG SA DALOY NG TRAPIKO",
+                "createdAt": "2025-02-06T02:15:12.971Z",
+                "__v": 0
+            }
+        ],
+        "time": "5:02",
+        "date": "2024-02-05T00:00:00.000Z",
+        "ticketStatus": "Pending",
+        "proof": [],
+        "createdAt": "2025-02-06T04:10:04.302Z",
+        "__v": 0
+    }
+}
