@@ -5,8 +5,8 @@ import sys
 from bson import ObjectId
 
 # --- Configuration ---
-MONGO_URI = "mongodb+srv://devlian:%403ynXurfR@stmo.n53bh.mongodb.net/etravio-db-personal?retryWrites=true&w=majority"
-DB_NAME = "etravio-db-personal"
+MONGO_URI = ""
+DB_NAME = ""
 BACKOFFICERS_COLLECTION = "backofficers"
 TICKETS_COLLECTION = "tickets"
 VIOLATIONS_COLLECTION = "violations"
